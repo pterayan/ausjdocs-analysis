@@ -1,8 +1,3 @@
-Absolutely — here is a **clean, professional, neutral** README.md tailored exactly to the context of your project (Reddit scraping → qualitative analysis → HTML output → Netlify deployment).
-You can copy-paste this straight into a `README.md` file in your repo.
-
----
-
 # **ausjdocs-analysis**
 
 This repository contains a small data exploration and qualitative analysis project examining discussions related to pharmacists within the **r/ausjdocs** subreddit.
@@ -93,10 +88,6 @@ This project is mainly exploratory — intended as a reflective resource for:
 * Identifying communication patterns and misconceptions
 * Providing junior pharmacists or trainees insight into common themes discussed by junior doctors
 * Supporting ongoing education and practice improvement
-
----
-
-If you want, I can also generate:
 
 * A more academic version
 * A GitHub Pages version instead of Netlify
