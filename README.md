@@ -75,8 +75,3 @@ This project is mainly exploratory — intended as a reflective resource for:
 * Identifying communication patterns and misconceptions
 * Providing junior pharmacists or trainees insight into common themes discussed by junior doctors
 * Supporting ongoing education and practice improvement
-
-* A more academic version
-* A GitHub Pages version instead of Netlify
-* A project logo/banner
-* A contributors / licence section (MIT, Apache, etc.)
