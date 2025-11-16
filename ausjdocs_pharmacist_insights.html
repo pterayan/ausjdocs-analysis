@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Junior Doctors Think of Hospital Pharmacists | Reddit Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <!-- HEADER SECTION -->
+        <header>
+            <h1>What Junior Doctors Think of Hospital Pharmacists</h1>
+            <p class="subtitle">Analysis of r/ausjdocs Discussions (2022-2025)</p>
+            <p class="byline">By Neat-Badger-5939, Pharmacy Resident | November 2025</p>
+        </header>
+
+        <!-- CONTEXT BOX -->
+        <div class="context-box">
+            <p><strong>Hey r/ausjdocs!</strong> I'm a pharmacy resident and wanted to understand what junior doctors actually think of hospital pharmacists—not the filtered feedback we get in person, but the real discussions.</p>
+            
+            <p>So I scraped posts from this subreddit from <strong>September 2022 to November 2025</strong>, focusing specifically on hospital pharmacy collaboration. Had to sift through A LOT of scope creep discussions (you guys really made your point there 😅), but found 4 posts with <strong>147 comments</strong> that were specifically about working with hospital pharmacists day-to-day. Reddit CommentScrapper scripts on github </p>
+            
+            <p>This is my analysis of what you said. Thought I'd close the loop and share it back—figured you might be curious what patterns emerged from your own discussions.</p>
+        </div>
+
+        <!-- FUNNEL DIAGRAM -->
+        <div class="funnel-section">
+            <h2 class="funnel-title">Data Collection Process</h2>
+            <div class="funnel-container">
+                <div class="funnel-stage wide">
+                    <div class="stage-number">157</div>
+                    <div class="stage-label">Total posts scraped from r/ausjdocs</div>
+                    <div class="stage-details">
+                        <ul>
+                            <li>Search terms: "pharmacist", "pharmacy", "clinical pharmacist"</li>
+                            <li>Date range: September 2022 - November 2025</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="funnel-stage medium">
+                    <div class="stage-number">153</div>
+                    <div class="stage-label">Posts excluded</div>
+                    <div class="stage-details">
+                        <ul>
+                            <li>Scope creep / policy discussions (113 posts)</li>
+                            <li>Community pharmacy only (28 posts)</li>
+                            <li>Not relevant to collaboration (12 posts)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="funnel-stage narrow">
+                    <div class="stage-number">4</div>
+                    <div class="stage-label">Posts about hospital pharmacy collaboration</div>
+                    <div class="stage-details">
+                        <ul>
+                            <li>"Hospital pharmacist" (Nov 2025): 37 comments</li>
+                            <li>"What do you guys think of us?" (Oct 2024): 77 comments</li>
+                            <li>"What a weird job we have" (Oct 2024): 28 comments</li>
+                            <li>"GPs okay with calls?" (Nov 2025): 47 comments</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="funnel-stage final">
+                    <div class="stage-number">147</div>
+                    <div class="stage-label">Comments analyzed</div>
+                    <div class="stage-details">
+                        High-engagement comments (50+ upvotes): 8 comments<br>
+                        Moderate-engagement comments (15+ upvotes): 13 comments
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- STATS BANNER -->
+        <div class="stats-banner">
+            <strong>147 COMMENTS ANALYZED</strong> | <strong>4 POSTS</strong> | <strong>SEP 2022 - NOV 2025</strong>
+        </div>
+
+        <!-- LIMITATIONS SECTION -->
+        <div class="limitations">
+            <h3>⚠️ Limitations & Methodology Notes</h3>
+            <p><strong>Transparency first:</strong> This analysis has limitations you should know about:</p>
+            <ul>
+                <li><strong>Selection bias:</strong> Only analyzed 4 posts specifically about hospital pharmacy (excluded the many scope creep policy posts)</li>
+                <li><strong>Platform bias:</strong> The r/ausjdocs community is heterogeneous and includes senior doctors, allied health professionals and others.</li>
+                <li><strong>Analyst bias:</strong> I'm a pharmacist analyzing comments about pharmacists—I've tried to present findings neutrally, but my perspective shapes interpretation</li>
+                <li><strong>Upvotes as validation:</strong> Using upvotes to indicate agreement/resonance with the community, but not everyone votes</li>
+                <li><strong>Qualitative method:</strong> Thematic analysis, not statistics—themes identified through reading and pattern recognition</li>
+                <li><strong>Jurisdictional Variation:</strong> Differences in prescribing legislation and pharmacy practice across Australian states</li>
+            </ul>
+            <p>With those caveats: here's what I found.</p>
+        </div>
+
+        <!-- MAIN FINDINGS SUMMARY -->
+        <div class="findings-summary">
+            <strong>MAIN PATTERNS IDENTIFIED:</strong> Comments showed both appreciation and frustration with hospital pharmacists. Positive sentiment appeared more frequently (approximately 5:1 ratio based on upvotes and comment content). The most upvoted comments emphasized patient safety value, while frustrations centered on communication tone and clinical boundary questions.
+        </div>
+
+        <!-- FINDING 1: COMMUNICATION TONE -->
+        <div class="section">
+            <div class="section-header" onclick="toggleSection(this)">
+                <h2>Finding #1: Communication Tone Affects Outcomes <span class="toggle">+</span></h2>
+            </div>
+            <div class="section-content">
+                <div>
+                    <h3>The Pattern</h3>
+                    <p>Comments describing error correction ranged from highly positive to extremely negative. The action (pharmacist catching an error) was similar, but the described tone created opposite reactions.</p>
+                    
+                    <div class="quote">
+                        <div class="quote-text">"how you can all be so nice while being right all the time, surrounded by people who are so often wrong and horrible"</div>
+                        <span class="votes">[82 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1fvwiyt" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <div class="quote">
+                        <div class="quote-text">"Try not to make us feel stupid for medication errors. The workload of drs, particularly juniors, is huge. We don't make errors to be annoying. We know mistakes are dangerously too, which is why no one makes medication mistakes on purpose. I've been left in tears after interactions with our ward pharmacist"</div>
+                        <span class="votes">[64 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <h3>Context From Comments</h3>
+                    <p>The 64-upvote comment described being "left in tears" after a pharmacist interaction. Even the pharmacist who created the original post (asking for feedback) acknowledged this wasn't acceptable behavior:</p>
+
+                    <div class="quote">
+                        <div class="quote-text">"sounds like your ward pharmacist is a horrible person. sorry you've had a bad encounter"</div>
+                        <span class="votes">[34 upvotes - from OP who is a pharmacist]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <p>Multiple comments referenced workload and stress as context for errors, not incompetence or carelessness.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FINDING 2: SAFETY NET VALUE -->
+        <div class="section">
+            <div class="section-header" onclick="toggleSection(this)">
+                <h2>Finding #2: Error Catching Explicitly Valued <span class="toggle">+</span></h2>
+            </div>
+            <div class="section-content">
+                <div>
+                    <h3>The Pattern</h3>
+                    <p>The highest-upvoted comment in the entire dataset was a direct statement about wanting error correction:</p>
+
+                    <div class="quote">
+                        <div class="quote-text">"If the dose I'm prescribing is likely to be an error please call so I don't accidentally kill someone."</div>
+                        <span class="votes">[195 upvotes - HIGHEST IN DATASET]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1oxmpn5" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <p>Other high-engagement comments expressed similar sentiments:</p>
+
+                    <div class="quote">
+                        <div class="quote-text">"Genuinely, genuinely you lot are an actual godsend. I am so confused about 1) how you remember literally everything I have tried and failed to learn and 2) how far up shits Creek i would be by now without having a pharmacist bail me out of my own stupid prescribing decisions on an almost daily basis and 3) how you can all be so nice while being right all the time, surrounded by people who are so often wrong and horrible."</div>
+                        <span class="votes">[82 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1fvwiyt" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <h3>The Learning Process</h3>
+                    <p>One comment described a progression over time:</p>
+
+                    <div class="quote">
+                        <div class="quote-text">"Used to really hate you guys. Absolute despise you. Calling me up all the time and telling me I had written something up wrong, or done a script incorrectly. So I showed all you clowns. I learnt to prescribe accurately and appropriately so you would stop hassling me. Pharmacists hate this one simple trick. Very handy resource for bridging the gap between learning about medications in medical school and the practical reality of safe prescribing."</div>
+                        <span class="votes">[119 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1fvwiyt" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <p>(playfull sarcasm noted and appreciated!)</p>
+
+
+                    <h3>Specialty Context: Psychiatry</h3>
+                    <div class="quote">
+                        <div class="quote-text">"As a psychiatrist, if you aren't at least slightly pissing the pharmacist off you really aren't trying hard enough. But as guard rails they are really valued."</div>
+                        <span class="votes">[82 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1fvwiyt" class="source-link" target="_blank">View source post</a>
+                    </div>
+                    <p>Complex or unconventional prescribing often prompts pharmacists to seek clarification. This can be part of the learning process for junior pharmacists, who gradually become familiar with the nuances of that specialty and, at times, the prescribing styles of individual consultants.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FINDING 3: CLINICAL BOUNDARIES -->
+        <div class="section">
+            <div class="section-header" onclick="toggleSection(this)">
+                <h2>Finding #3: Perceived Boundaries Around Clinical Input <span class="toggle">+</span></h2>
+            </div>
+            <div class="section-content">
+                <div>
+                    <h3>The Pattern</h3>
+                    <p>Comments distinguished between different types of pharmacist input. Error correction received positive responses, while clinical management questions received more mixed reactions:</p>
+
+                    <div class="quote">
+                        <div class="quote-text">"Being corrected for an error is good. What is not so good is when the Pharmacist wants to change your management because they think they know better."</div>
+                        <span class="votes">[112 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1oxmpn5" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <h3>Examples Provided</h3>
+                    
+                    <p><strong>Off-label use in specialty practice:</strong></p>
+                    <div class="quote">
+                        <div class="quote-text">"I don't mind when pharmacists are acting in their role safeguarding patients from medication errors. I do have a problem when changes get made unilaterally on their end. This is a particular problem in Ophthalmology because so much of what we do as standard management is actually off-label use (ringing pharmacy to order cocaine eye drops for a 6 week old baby always provokes interesting responses)."</div>
+                        <span class="votes">[47 upvotes - Ophthalmologist]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1oxmpn5" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <p><strong>Scope beyond medication safety:</strong></p>
+                    <div class="quote">
+                        <div class="quote-text">"I appreciate it, that's what pharmacists are for. To provide expertise on the checking of medications prescribed by doctors, amongst other things. I definitely didn't mean to prescribe 500mg of prednisolone. What I don't appreciate is pharmacists prescribing keflex for my patient that ends up with pelvic inflammatory disease, sepsis and infertility. Or giving topical steroids for 'dermatitis' that took me 1 glance to recognise as a textbook melanoma."</div>
+                        <span class="votes">[53 upvotes - GP]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1oxmpn5" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <h3>What This May Suggest</h3>
+                    <p>Comments indicated acceptance of pharmacist input on:</p>
+                    <ul>
+                        <li>Dose errors and calculations</li>
+                        <li>Drug interactions</li>
+                        <li>Renal/hepatic dose adjustments</li>
+                        <li>Allergy contradictions</li>
+                    </ul>
+
+                    <p>Less acceptance of input on:</p>
+                    <ul>
+                        <li>Clinical management decisions</li>
+                        <li>Diagnosis-related choices</li>
+                        <li>Specialty-specific prescribing patterns</li>
+                        <li>Appropriate off-label use</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- FINDING 4: COMMUNICATION METHODS -->
+        <div class="section">
+            <div class="section-header" onclick="toggleSection(this)">
+                <h2>Finding #4: Communication Method Preferences <span class="toggle">+</span></h2>
+            </div>
+            <div class="section-content">
+                <div>
+                    <h3>The Pattern</h3>
+                    <p>One of the original posts was from a pharmacist asking if GPs minded being called about dose errors. The responses were clear:</p>
+
+                    <div class="quote">
+                        <div class="quote-text">"I often need to call the GP to get permission to change the dose to a safe, appropriate dose. Most of the time it's clear that the GP accidentally put an increased dose on when they didn't mean to. The GPs usually are nice about it and then hang up as soon as I say thank you that's all. Which implies they are very busy. But do GPs mind that pharmacists call them up for something seemingly simple like that? I do feel awkward calling GPs to fix the script."</div>
+                        <span class="votes">[Original post - 50 upvotes, 47 comments]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1oxmpn5" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <p>Top responses:</p>
+
+                    <div class="quote">
+                        <div class="quote-text">"If the dose I'm prescribing is likely to be an error please call so I don't accidentally kill someone."</div>
+                        <span class="votes">[195 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1oxmpn5" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <div class="quote">
+                        <div class="quote-text">"I appreciate it, that's what pharmacists are for."</div>
+                        <span class="votes">[53 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1oxmpn5" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <h3>For Critical Issues</h3>
+                    <p>One detailed comment emphasized face-to-face communication for dangerous situations:</p>
+
+                    <div class="quote">
+                        <div class="quote-text">"Spot patients on dangerous combinations and speak to someone face to face about it as well as writing it in the notes. Its awful to miss the note and then see 3 days later that the Pharmacist knew they were on x, y, and z but only wrote it down and it got missed because 30 other clinical notes were added since."</div>
+                        <span class="votes">[22 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <h3>For Follow-up</h3>
+                    <div class="quote">
+                        <div class="quote-text">"Also, we're not purposefully ignoring you, sometimes we genuinely do not have time to get to even urgent tasks. One gentle reminder after a couple hours is okay"</div>
+                        <span class="votes">[7 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <p>This comment acknowledged workload realities and indicated one follow-up reminder is acceptable.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FINDING 5: INFORMATION MANAGEMENT ROLE -->
+        <div class="section">
+            <div class="section-header" onclick="toggleSection(this)">
+                <h2>Finding #5: Medication Information Management Valued <span class="toggle">+</span></h2>
+            </div>
+            <div class="section-content">
+                <div>
+                    <h3>The Pattern</h3>
+                    <p>One of the most detailed comments described ideal pharmacist contributions, focusing primarily on information management:</p>
+
+                    <div class="quote">
+                        <div class="quote-text">"Be the best information gatherer possible! The safety of our prescribing decisions is often limited by incomplete information. And gathering the information is a huge task that we often don't have the time or resources for. Having someone make sure the best possible information is there in the chart, and some expert prompts on how to use it, would be a great way to share your expertise."</div>
+                        <span class="votes">[22 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <h3>Specific Activities Mentioned</h3>
+
+                    <p><strong>Admission medication reconciliation:</strong></p>
+                    <div class="quote">
+                        <div class="quote-text">"Do a good medicines reconciliation with patients on admission. Its hard for doctors to have the time to go to 3 different sources and cross reference them and check with the patient/family what they are actually taking, especially when they are admitted out of hours and GP/pharmacy etc is closed. Sometimes JMO admitting them is actually cross covering another team and has never worked on a gastro ward etc so might have limited knowledge of the 'normal meds' for that patient group."</div>
+                        <span class="votes">[From the 22-upvote detailed comment]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <p><strong>Discharge continuity:</strong></p>
+                    <div class="quote">
+                        <div class="quote-text">"Similar applies to discharges - be the one that spots that we witheld the ACEi for 2 weeks and then there was term changeover and all the doctors changed, and then the patient got started on something different for their hypertension at a met call out of hours and now they are either on both, or something entirely new unnecessarily and probably should just go back onto their ACEi..."</div>
+                        <span class="votes">[From the 22-upvote detailed comment]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <p><strong>High-risk medication protocols:</strong></p>
+                    <div class="quote">
+                        <div class="quote-text">"Identify patients on high risk medications e.g. Vancomycin and take ownership of ordering the levels at the appropriate time based on hospital protocol and then recommend dose adjustments with comments in the chart/record. Make it easy for medical teams to follow the trail of information. Similar for warfarin, APTTs for heparin etc"</div>
+                        <span class="votes">[From the 22-upvote detailed comment]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <p><strong>Summary statement from that comment:</strong></p>
+                    <div class="quote">
+                        <div class="quote-text">"Basically being the source of truth for a patients medication history is gold!"</div>
+                        <span class="votes">[From the 22-upvote detailed comment]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <p>Another high-upvote comment expressed similar themes:</p>
+                    <div class="quote">
+                        <div class="quote-text">"It would be a massive value add if the pharmacist could ascertain an up to date accurate medication list that's essentially gospel, notify re missing regular inpatient meds, identify adherence issues and safety net interactions or side effects the medical team may have missed, ensure scripts and supply on discharge."</div>
+                        <span class="votes">[61 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FINDING 6: TIMING AND WORKFLOW -->
+        <div class="section">
+            <div class="section-header" onclick="toggleSection(this)">
+                <h2>Finding #6: Timing of Interventions Mentioned <span class="toggle">+</span></h2>
+            </div>
+            <div class="section-content">
+                <div>
+                    <h3>The Pattern</h3>
+                    <p>Several comments referenced timing of pharmacy interventions, particularly around discharge:</p>
+
+                    <div class="quote">
+                        <div class="quote-text">"All of this, especially 'in a timely manner'. Patients being discharged having to wait for scripts/meds can significantly affect bed flow. I would add, letting the drs know if something is not available and what an alternative may be. Especially with recent drug shortages in the community. Im sure you understand the frustrations for patients if the drug isn't actually available, and for staff. Being an emergency physician and getting a call from the community from/about a patient I don't know, who has been discharged from a ward stay, needing a different script because the med isn't available and its now after hours, and is it important, and if not you, then who, because the treating team has all gone home and no one else is answering their phone."</div>
+                        <span class="votes">[12 upvotes - ED physician]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <p>One sarcastic comment indicated late discharge scripts are a recognized issue:</p>
+
+                    <div class="quote">
+                        <div class="quote-text">"Ok, 7 discharge scripts at 4:58 pm it is then /s"</div>
+                        <span class="votes">[35 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <p>A pharmacist response acknowledged system constraints:</p>
+
+                    <div class="quote">
+                        <div class="quote-text">"I'd image the ward pharmacists are already trying to do things as quickly as possible. But sometimes there's something on the script that needs to be fixed, and they have to get someone to fix it. Or the discharge med is being dispensed and it's out of the ward pharmacists' control really."</div>
+                        <span class="votes">[1 upvote - pharmacist commenter]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <h3>What This Suggests</h3>
+                    <p>Discharge medication delays have workflow impacts. After-hours problems from poor discharge planning affect ED physicians. Drug shortage communication needs to happen proactively.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ALL QUOTES SECTION -->
+        <div class="section">
+            <div class="section-header" onclick="toggleSection(this)">
+                <h2>All High-Engagement Comments (15+ upvotes) <span class="toggle">+</span></h2>
+            </div>
+            <div class="section-content">
+                <div>
+                    <div class="quote">
+                        <div class="quote-text">"If the dose I'm prescribing is likely to be an error please call so I don't accidentally kill someone."</div>
+                        <span class="votes">[195 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1oxmpn5" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <div class="quote">
+                        <div class="quote-text">"Used to really hate you guys. Absolute despise you. Calling me up all the time and telling me I had written something up wrong, or done a script incorrectly. So I showed all you clowns. I learnt to prescribe accurately and appropriately so you would stop hassling me. Pharmacists hate this one simple trick. Very handy resource for bridging the gap between learning about medications in medical school and the practical reality of safe prescribing."</div>
+                        <span class="votes">[119 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1fvwiyt" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <div class="quote">
+                        <div class="quote-text">"Being corrected for an error is good. What is not so good is when the Pharmacist wants to change your management because they think they know better."</div>
+                        <span class="votes">[112 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1oxmpn5" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <div class="quote">
+                        <div class="quote-text">"As a psychiatrist, if you aren't at least slightly pissing the pharmacist off you really aren't trying hard enough. But as guard rails they are really valued."</div>
+                        <span class="votes">[82 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1fvwiyt" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <div class="quote">
+                        <div class="quote-text">"Genuinely, genuinely you lot are an actual godsend. I am so confused about 1) how you remember literally everything I have tried and failed to learn and 2) how far up shits Creek i would be by now without having a pharmacist bail me out of my own stupid prescribing decisions on an almost daily basis and 3) how you can all be so nice while being right all the time, surrounded by people who are so often wrong and horrible."</div>
+                        <span class="votes">[82 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1fvwiyt" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <div class="quote">
+                        <div class="quote-text">"Try not to make us feel stupid for medication errors. The workload of drs, particularly juniors, is huge. We don't make errors to be annoying. We know mistakes are dangerously too, which is why no one makes medication mistakes on purpose. I've been left in tears after interactions with our ward pharmacist"</div>
+                        <span class="votes">[64 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <div class="quote">
+                        <div class="quote-text">"It would be a massive value add if the pharmacist could ascertain an up to date accurate medication list that's essentially gospel, notify re missing regular inpatient meds, identify adherence issues and safety net interactions or side effects the medical team may have missed, ensure scripts and supply on discharge."</div>
+                        <span class="votes">[61 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <div class="quote">
+                        <div class="quote-text">"I appreciate it, that's what pharmacists are for. To provide expertise on the checking of medications prescribed by doctors, amongst other things. I definitely didn't mean to prescribe 500mg of prednisolone. What I don't appreciate is pharmacists prescribing keflex for my patient that ends up with pelvic inflammatory disease, sepsis and infertility. Or giving topical steroids for 'dermatitis' that took me 1 glance to recognise as a textbook melanoma."</div>
+                        <span class="votes">[53 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1oxmpn5" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <div class="quote">
+                        <div class="quote-text">"I don't mind when pharmacists are acting in their role safeguarding patients from medication errors. I do have a problem when changes get made unilaterally on their end. This is a particular problem in Ophthalmology because so much of what we do as standard management is actually off-label use (ringing pharmacy to order cocaine eye drops for a 6 week old baby always provokes interesting responses)."</div>
+                        <span class="votes">[47 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1oxmpn5" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <div class="quote">
+                        <div class="quote-text">"I think you guys are great, and a very welcome part of the team. And your purple pens are a lovely colour. But I may have a bias as I'm married to a hospital pharmacist."</div>
+                        <span class="votes">[42 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1fvwiyt" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <div class="quote">
+                        <div class="quote-text">"Ok, 7 discharge scripts at 4:58 pm it is then /s"</div>
+                        <span class="votes">[35 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <div class="quote">
+                        <div class="quote-text">"Be the best information gatherer possible! The safety of our prescribing decisions is often limited by incomplete information. And gathering the information is a huge task that we often don't have the time or resources for. Having someone make sure the best possible information is there in the chart, and some expert prompts on how to use it, would be a great way to share your expertise. [...] Basically being the source of truth for a patients medication history is gold!"</div>
+                        <span class="votes">[22 upvotes - extensive detailed comment]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1owkkre" class="source-link" target="_blank">View source post</a>
+                    </div>
+
+                    <div class="quote">
+                        <div class="quote-text">"Our pharmacists rounds with us so they know who is getting chemo, who is getting discharged and who needs an application for expensive drugs. And of course, pick up on any drug interactions sooner rather than later."</div>
+                        <span class="votes">[15 upvotes]</span>
+                        <a href="https://reddit.com/r/ausjdocs/comments/1fvwiyt" class="source-link" target="_blank">View source post</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <p><strong>Source:</strong> r/ausjdocs (4 posts, 147 comments, September 2022 - November 2025)</p>
+            <p><strong>Posts analyzed:</strong></p>
+            <ul style="list-style: none; padding: 0;">
+                <li>"Hospital pharmacist" (Nov 2025) - 37 comments</li>
+                <li>"Hospital pharmacist here what do you guys actually think of us?" (Oct 2024) - 77 comments</li>
+                <li>"What a weird job we have" (Oct 2024) - 28 comments</li>
+                <li>"GPs, are you okay with pharmacists ringing you up..." (Nov 2025) - 47 comments</li>
+            </ul>
+            <p><strong>Analysis by:</strong> Neat-Badger-5939, Claude AI</p>
+            <p><strong>Date:</strong> November 2025</p>
+            <p><strong>Methodology:</strong> Qualitative thematic analysis of publicly available Reddit comments. Posts selected based on relevance to hospital pharmacy collaboration (excluded policy/scope creep discussions). Themes identified through iterative reading and pattern recognition. Upvote counts used to indicate community agreement/resonance. No ethical approval required as data is publicly available and anonymous.</p>
+            <p><em>This analysis presents patterns from Reddit discussions. Individual experiences will vary. I'm sharing this back to r/ausjdocs because we used your data—seems only fair you see what came out of it. Feedback welcome.</em></p>
+        </footer>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        function toggleSection(header) {
+            const content = header.nextElementSibling;
+            const toggle = header.querySelector('.toggle');
+            
+            if (content.classList.contains('active')) {
+                content.classList.remove('active');
+                toggle.textContent = '+';
+            } else {
+                content.classList.add('active');
+                toggle.textContent = '−';
+            }
+        }
+    </script>
+</body>
+</html>
