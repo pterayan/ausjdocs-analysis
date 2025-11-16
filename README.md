@@ -67,19 +67,6 @@ This is intended as an informational / reflective piece rather than an academic 
 └── README.md                 # (This file)
 ```
 
----
-
-## **Deployment (Optional)**
-
-This site can be deployed directly using Netlify:
-
-1. Connect the GitHub repo to Netlify
-2. No build command required
-3. Publish directory: `.`
-4. Netlify will serve `index.html` as the homepage
-
----
-
 ## **Purpose**
 
 This project is mainly exploratory — intended as a reflective resource for:
